@@ -14,10 +14,10 @@
   --presentacion-titulo-tamanio: 4rem;
   --presentacion-titulo-tamanio-grande: 3.4rem;
   --presentacion-descripcion-tamanio: 1.2rem;
-  --titulo-tamanio: 3rem;
-  --sub-titulo-tamanio: 2rem;
+  --titulo-tamanio: 2rem;
+  --sub-titulo-tamanio: 1.2rem;
   --texto-tamanio: 1.1rem;
-  --enlaces-tamanio: 1.2rem;
+  --enlaces-tamanio: 1rem;
   --texto-peso-grueso: 700;
   --texto-peso-regular: 400;
   --texto-peso-fino: 300;
@@ -60,7 +60,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
   top: 0;
 }
 .navegacion {
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -71,7 +71,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
 }
 .navegacion__titulo {
   font-size: var(--titulo-tamanio);
-  text-shadow: 2px 2px 2px var(--fondo-secundario);
+  text-shadow: 1px 1px 1px var(--fondo-secundario);
 }
 
 /* principal */
@@ -157,7 +157,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
 .articulo__titulo {
   font-size: var(--titulo-tamanio);
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   text-shadow: 2px 2px 2px var(--fondo-secundario);
 }
 .articulo__contenedor_descripciones {
@@ -180,8 +180,8 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
 }
 
 .seccion_descripcion__porta_retrato {
-  height: 300px;
-  width: 300px;
+  height: 260px;
+  width: 260px;
   padding: 10px;
   background-color: var(--texto-primario);
   /*   background-color: transparent; */
@@ -205,22 +205,20 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
     background-color 0.3s ease, transform 0.3s ease,
     border-radius 0.1s 0.2s ease; */
 }
-/* .seccion_descripcion__imagen_variante {
-  top: auto;
-  bottom: 40px;
-}
-
-.seccion_descripcion__imagen:hover {
+.tarjeta__imagen {
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 3px;
   background-color: var(--texto-primario);
-  left: 0;
-  top: 0;
-  border-radius: 20px;
-  transform: translateX(0);
 }
-.seccion_descripcion__imagen_variante:hover {
+
+.seccion_descripcion__image {
+  width: 100%;
+  height: 100%;
+  padding: px;
+  background-color: var(--texto-primario);
+}
+/*.seccion_descripcion__imagen_variante:hover {
   top: auto;
   bottom: 0;
 } */
